@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="da6a0ff4-bbd2-471b-9cf1-ec95fcb9bac6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/me/james/permissions4j/Example.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/me/james/permissions4j/permission/exceptions/MissingGroupException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/me/james/permissions4j/permission/exceptions/MissingUserException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/me/james/permissions4j/ui/todo" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/me/james/permissions4j/Test.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Permissions4J.iws" afterPath="$PROJECT_DIR$/Permissions4J.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/me/james/permissions4j/permission/Group.java" afterPath="$PROJECT_DIR$/src/me/james/permissions4j/permission/Group.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/me/james/permissions4j/permission/Node.java" afterPath="$PROJECT_DIR$/src/me/james/permissions4j/permission/Node.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/me/james/permissions4j/permission/User.java" afterPath="$PROJECT_DIR$/src/me/james/permissions4j/permission/User.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/me/james/permissions4j/permission/exceptions/MissingNodeException.java" afterPath="$PROJECT_DIR$/src/me/james/permissions4j/permission/exceptions/MissingNodeException.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/me/james/permissions4j/Example.java" afterPath="$PROJECT_DIR$/src/me/james/permissions4j/Example.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,11 +19,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Example.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Example.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/me/james/permissions4j/Example.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="68" lean-forward="false" selection-start-line="22" selection-start-column="68" selection-end-line="22" selection-end-column="68" />
+            <state relative-caret-position="272">
+              <caret line="16" column="54" lean-forward="false" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="54" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -39,7 +31,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="todo" pinned="false" current-in-tab="true">
+      <file leaf-file-name="todo" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/me/james/permissions4j/ui/todo">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
@@ -49,11 +41,23 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="Permissions4J.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/me/james/permissions4j/Permissions4J.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="53" lean-forward="false" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="53" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/me/james/permissions4j/permission/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
-              <caret line="21" column="5" lean-forward="false" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+            <state relative-caret-position="263">
+              <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -159,8 +163,8 @@
         <option value="$PROJECT_DIR$/src/me/james/permissions4j/permission/User.java" />
         <option value="$PROJECT_DIR$/src/me/james/permissions4j/permission/exceptions/MissingGroupException.java" />
         <option value="$PROJECT_DIR$/src/me/james/permissions4j/permission/Group.java" />
-        <option value="$PROJECT_DIR$/src/me/james/permissions4j/Example.java" />
         <option value="$PROJECT_DIR$/src/me/james/permissions4j/ui/todo" />
+        <option value="$PROJECT_DIR$/src/me/james/permissions4j/Example.java" />
       </list>
     </option>
   </component>
@@ -578,7 +582,14 @@
       <option name="project" value="LOCAL" />
       <updated>1484974127930</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Fixed a few things, quality of life">
+      <created>1484976739417</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1484976739417</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView" selected-index="2">
@@ -629,7 +640,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="Fixed a few things, quality of life" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed a few things, quality of life" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -666,8 +678,6 @@
           <caret line="12" column="55" lean-forward="false" selection-start-line="12" selection-start-column="55" selection-end-line="12" selection-end-column="55" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#490#491#0" expanded="true" />
-            <element signature="e#539#540#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -718,8 +728,6 @@
           <caret line="12" column="55" lean-forward="true" selection-start-line="12" selection-start-column="55" selection-end-line="12" selection-end-column="55" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#490#491#0" expanded="true" />
-            <element signature="e#539#540#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -770,8 +778,6 @@
           <caret line="12" column="52" lean-forward="false" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#490#491#0" expanded="true" />
-            <element signature="e#539#540#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -813,18 +819,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/james/permissions4j/Permissions4J.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="22" lean-forward="false" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#490#491#0" expanded="true" />
-            <element signature="e#539#540#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/me/james/permissions4j/permission/exceptions/MissingUserException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -845,16 +839,6 @@
           <folding>
             <element signature="e#266#267#0" expanded="true" />
             <element signature="e#293#294#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/james/permissions4j/permission/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="21" column="5" lean-forward="false" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -889,21 +873,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/james/permissions4j/Example.java">
+    <entry file="file://$PROJECT_DIR$/src/me/james/permissions4j/ui/todo">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="68" lean-forward="false" selection-start-line="22" selection-start-column="68" selection-end-line="22" selection-end-column="68" />
+        <state relative-caret-position="68">
+          <caret line="4" column="30" lean-forward="true" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/james/permissions4j/permission/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/james/permissions4j/ui/todo">
+    <entry file="file://$PROJECT_DIR$/src/me/james/permissions4j/Permissions4J.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="30" lean-forward="true" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="30" />
-          <folding />
+        <state relative-caret-position="204">
+          <caret line="12" column="53" lean-forward="false" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/james/permissions4j/Example.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="54" lean-forward="false" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

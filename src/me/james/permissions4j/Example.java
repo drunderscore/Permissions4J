@@ -14,6 +14,8 @@ public class Example
         Node.createNode( "dm.purge", "Direct Message Purge (Bulk Delete)" );
         Node.createNode( "dm.delete", "Direct Message Delete" );
         Node.createNode( "dm.mute", "Direct Message Mute" );
+        Permissions4J.disableLogging(); //Nasty stuff.
+        Permissions4J.init();
         try
         {
             //Group#setNode can be used like a builder!
@@ -34,6 +36,5 @@ public class Example
         {
             e.printStackTrace();
         }
-        Permissions4J.disableLogging(); //Nasty stuff.
     }
 }
