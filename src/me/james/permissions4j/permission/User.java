@@ -2,13 +2,15 @@ package me.james.permissions4j.permission;
 
 import com.sun.istack.internal.*;
 import java.util.*;
+import me.james.permissions4j.permission.exceptions.*;
 
 public class User
 {
     private static HashMap<String, User> users = new HashMap<>();
     private String id, name;
-//    private HashMap<String, Group> groups = new HashMap<>(); //TODO: Multiple groups! Hierarchy support!
+    //    private HashMap<String, Group> groups = new HashMap<>(); //TODO: Multiple groups! Hierarchy support!
     private Group group;
+
     private User( String id, String name, Group g )
     {
         this.id = id;
@@ -28,8 +30,10 @@ public class User
         return users.values().toArray( new User[users.values().size()] );
     }
 
-    public static User getUser( String id )
+    public static User getUser( String id ) throws MissingUserException
     {
+        if ( !users.containsKey( id ) )
+            throw new MissingUserException( id );
         return users.get( id );
     }
 

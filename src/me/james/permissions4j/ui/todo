@@ -1,0 +1,5 @@
+//TODO: UI System
+
+Possibly Swing, but Swing might not be very well-suited for such a app.
+Apache Pivot is an option, AWT possibly, but Swing > AWT if I had to choose either of those.
+I am going for more of a rendered UI instead of a Windows-themed UI; it will just suit the editor better.
